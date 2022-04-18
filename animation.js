@@ -3,8 +3,6 @@ setTimeout(spinDaCoin,2000);
 function spinDaCoin() {
 	var intervalz = setInterval(function() {
 		
-		//TODO CURRENT ENDPOS = -600px -1200px
-
 		var elemento = $(".flip-animation");
 		var old_x = parseInt(elemento.css("background-position").split(" ")[0].split("px")[0]);
 		var old_y = parseInt(elemento.css("background-position").split(" ")[1].split("px")[0]);
